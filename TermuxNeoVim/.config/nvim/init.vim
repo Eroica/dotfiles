@@ -1,8 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'vimwiki/vimwiki', { 'branch': 'dev' }
 Plug 'https://github.com/udalov/kotlin-vim'
 Plug 'tyrannicaltoucan/vim-quantum'
-Plug 'rakr/vim-two-firewatch'
 Plug 'davisdude/vim-love-docs'
 Plug 'luochen1990/rainbow'
 
@@ -17,8 +17,10 @@ set number
 set cursorline
 filetype indent on
 
+let mapleader=","
+
 set background=dark
-set termguicolors
+" set termguicolors
 colorscheme quantum
 
 set wildmenu
@@ -46,7 +48,6 @@ let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 let g:netrw_browse_split = 0
 
-let mapleader=","
 let g:enable_bold_font = 1
 let g:quantum_italics = 1
 
