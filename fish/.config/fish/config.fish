@@ -23,6 +23,9 @@ function fish_prompt
 	set_color normal
 end
 
-function subl
-	open -a "Sublime Text" $argv[1]
+# Add this to your .bashrc, .zshrc or equivalent.
+# Run 'fff' with 'f' or whatever you decide to name the function.
+function f
+	fff $argv
+	cd (cat $HOME/.cache/fff/.fff_d)
 end
