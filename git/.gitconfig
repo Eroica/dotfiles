@@ -1,0 +1,5 @@
+[user]
+	name = Eroica
+	email = seba79@mailbox.org
+[core]
+	excludesfile = ~/.gitignore

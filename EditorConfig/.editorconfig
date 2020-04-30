@@ -1,0 +1,23 @@
+root = true
+
+[*]
+max_line_length = off
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{vala,vapi}]
+indent_style = tab
+indent_size = 4
+
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 120
+
+[*.{html,xml,fxml,ui}]
+indent_style = tab
+indent_size = 3
+
+[*.{css,scss}]
+indent_style = tab
+indent_size = 2
