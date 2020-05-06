@@ -1,0 +1,5 @@
+
+Note to self:
+
+ gsettings set org.gnome.desktop.interface overlay-scrolling false
+
