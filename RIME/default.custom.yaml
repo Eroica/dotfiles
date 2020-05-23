@@ -1,0 +1,9 @@
+patch:
+  schema_list:
+    - {schema: bopomofo_tw}
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: noop
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
