@@ -1,0 +1,12 @@
+{
+	"theme": "dark",
+
+	"profiles":
+	{
+		"defaults":
+		{
+			"fontFace": "Consolas",
+			"fontSize": 11
+		}
+	}
+}
