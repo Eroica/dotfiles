@@ -11,6 +11,13 @@
 	"show_line_endings": true,
 	"hardware_acceleration": "opengl",
 	"open_files_in_new_window": "always",
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Mariana.sublime-color-scheme",
+	"theme": "Reverse Gravity.sublime-theme",
+	"color_scheme": "Breakers.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default Dark.sublime-theme",
+	"font_size": 12,
 }
