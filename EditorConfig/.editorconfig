@@ -1,13 +1,14 @@
 root = true
 
 [*]
-max_line_length = off
+max_line_length = 99
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.kt]
+[*.{kt,kts}]
 indent_style = space
 indent_size = 4
+max_line_length = 120
 
 [*.{vala,vapi}]
 indent_style = tab
@@ -16,11 +17,23 @@ indent_size = 4
 [*.py]
 indent_style = space
 indent_size = 4
-max_line_length = 120
 
-[*.{html,xml,fxml,ui}]
+[*.lua]
 indent_style = tab
 indent_size = 3
+
+[*.rb]
+indent_style = tab
+indent_size = 3
+
+[*.scala]
+indent_style = space
+indent_size = 2
+
+[*.{html,xml,fxml,ui,peb,pebble,erb}]
+indent_style = tab
+indent_size = 3
+max_line_length = off
 
 [*.{css,scss}]
 indent_style = tab
