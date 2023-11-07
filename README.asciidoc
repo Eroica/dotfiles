@@ -1,7 +1,11 @@
 
 Note to self:
 
-```bash
+```fish
 defaults write -g NSDisableAutomaticTermination -bool yes
 fossil settings --global crlf-glob "*"
+fossil setting ignore-glob ".DS_Store
+*/.DS_Store
+.idea, .gradle
+.jekyll-cache, .sass-cache"
 ```
