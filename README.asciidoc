@@ -1,5 +1,7 @@
 
 Note to self:
 
- defaults write -g NSDisableAutomaticTermination -bool yes
-
+```bash
+defaults write -g NSDisableAutomaticTermination -bool yes
+fossil settings --global crlf-glob "*"
+```
