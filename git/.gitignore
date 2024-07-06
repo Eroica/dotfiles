@@ -1,5 +1,9 @@
+.idea
+.gradle
 .DS_Store
 .sass-cache
+.bundle
+vendor
 
 # Created by https://www.gitignore.io/api/intellij
 

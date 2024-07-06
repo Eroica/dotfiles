@@ -1,5 +1,20 @@
 [user]
 	name = Eroica
-	email = seba79@mailbox.org
+	email = Eroica@users.noreply.github.com
 [core]
 	excludesfile = ~/.gitignore
+	safecrlf = false
+[pull]
+	rebase = true
+[gc]
+	autoDetach = false
+[commit]
+	gpgSign = false
+[gui]
+	pruneduringfetch = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
+[push]
+	recurseSubmodules = check
